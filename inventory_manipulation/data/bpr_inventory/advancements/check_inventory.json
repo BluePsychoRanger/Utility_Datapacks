@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "bpr_inventory:tracked_items"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bpr_inventory:check_inv"
+  }
+}
